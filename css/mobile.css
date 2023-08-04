@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+  .my-info-nav {
+    display: block;
+    border: none;
+  }
+  .intro {
+    top: 5%;
+  }
+  .my-info-nav:first-child {
+    border-left: none;
+  }
+  /* Bỏ hình avatar ở giữa */
+  .middle-nav {
+    display: none;
+  }
+  .nav-bar {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  /* Bỏ phần border bên phải ở phần chứng chỉ */
+  #certificate .small-section:first-child,
+  #certificate .small-section:nth-child(3) {
+    border-right: 0px;
+  }
+  /* Chỉnh sửa phần hiển thị cho mục profile phần dự án */
+  .pro-des {
+    grid-template-columns: 1fr;
+  }
+  #footer li {
+    display: flex;
+
+    justify-content: center;
+  }
+}

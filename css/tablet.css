@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .middle-nav {
+    display: none;
+  }
+  .intro {
+    top: 10%;
+  }
+  .my-name {
+    font-size: 28px;
+  }
+  .my-position {
+    font-size: 20px;
+  }
+
+  /* Chỉnh sửa phần hiển thị cho mục profile phần dự án */
+  .com-pos {
+    grid-template-columns: 1fr;
+  }
+
+  /* ---Chỉnh sửa cho web digital-cv ---*/
+
+  /* Sửa border */
+  .second-half {
+    border-left: 0px solid #1864ab;
+  }
+  .goals,
+  .scopes {
+    border-right: 0px solid #1864ab;
+  }
+  .goals,
+  .team,
+  .scopes,
+  .primary {
+    border-bottom: 15px solid #1864ab;
+  }
+
+  /* Sửa icon canh giữa lại */
+  .ico {
+    text-align: center;
+  }
+}
